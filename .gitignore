@@ -1,0 +1,13 @@
+# Secrets — never commit
+ADMIN_CREDENTIALS.txt
+*.pem
+*.key
+
+# Runtime state
+node_modules/
+meshcentral-data/
+meshcentral-files/
+meshcentral-backups/
+*.log
+current-url.txt
+.DS_Store
